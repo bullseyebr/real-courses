@@ -1,22 +1,29 @@
 # Real Cursos
 
-Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/). Consiste em uma Landing Page (LP) e Plataforma de Cursos com Administrativo.
+Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/). 
+
+Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Administrativo.
+
 - Desenvolvimento:
   - Front-end: HTML, CSS e JavaScript
   - Back-end: PHP e SQL
 
 
-Desenvolvedores:
+## Integrantes:
+
+#### Desenvolvedores:
+
 - [Leonardo Campos](https://github.com/fcamposleonardo)
 - [Leonardo Nogueira](https://github.com/Leosharkdev)
 
 
-Scrum Master:
+#### Scrum Master:
 
 - [Vinicius](https://www.linkedin.com/in/vinicius-carlos/)
 
 
-## Tutorial de uso do repositório:
+
+## Tutorial de uso do git neste repositório:
 
 
 
@@ -49,7 +56,7 @@ Scrum Master:
 - Envie o commit feito para sua branch remota no GitHub: `git push` ou `git push origin nome-branch`
 ---
 
-### Ao final da sprint, estando tudo certo, faça o merge *(com autorização do SCRUM Master)*
+### Ao terminar a funcionalidade, avise o SCRUM que irá fazer um review e irá autorizar fazer o *merge*
 
 - Depois de solicitado pelo Scrum Master, faça o merge entre sua branch e a `develop`
 * Volte para a develop: `git checkout develop`
@@ -80,6 +87,6 @@ Scrum Master:
 * Para mesclar sua branch com outra-branch (estando dentro da sua branch): `git merge outra-branch`
 ---
 
-### Para um detalhamento completo:
+### Detalhamento completo com mais comandos do git
 
 - https://www.notion.so/realgrana/Github-f8d31903dce9417e844e7c8e57f0c2a2?pvs=4
