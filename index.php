@@ -14,6 +14,11 @@
 <body>
   <header>
     <nav class="navbar">
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
       <div class="navbar-avatar" onclick="toggleDropdown()">
         <img src="img/avatar.png" alt="" width="10%" height="10%">
         <ul class="navbar-menu" id="dropdown-menu">
