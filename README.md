@@ -30,17 +30,30 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 
 ### Primeira utilização
 
+#### Baixar o projeto (dando clone):
+
+- Abra o GitBash ou CMD/Terminal
+  - A forma mais fácil é abrir o terminal ou VsCode (terminal integrado) na pasta que vai ficar o projeto
 - Entre na pasta onde irá guardar o projeto: `cd /caminho/para/a/pasta`
 - Clone o repositório: `git clone https://github.com/bullseyebr/real-courses`
 - Entre na pasta criada pelo comando clone: `cd real-courses`
-- Entre na branch develop pelo comando: `git checkout develop`
+
+
+#### Criar a branch para a funcionalidade que você vai desenvolver:
+
+- Utilize o comando `git pull` para atualizar/baixar o que tiver de modificação do repositório remoto no GitHub para o seu local
+- Você provavelmente estará na branch `main`, verifique utilizando o comando `git status`
+- Troque para a branch develop pelo comando: `git checkout develop`
   - Obs: sempre criar uma branch nova a partir da branch `develop`
-- Crie a branch usando `feature/` + nome da feature que irá desenvolver
-- Para criar uma branch nova você deve adicion o `-b`, ficando `git checkout -b nome-branch`
+- Crie a branch que você utilizará para desenvolver a sua funcionalidade
+  - Sempre crie a branch usando `feature/` + nome da feature que irá desenvolver
+  - Para criar uma branch nova você usar `git checkout` com a opção `-b`, ficando `git checkout -b nome-branch`
 - Exemplo de criação de branch de uma view do painel administrativo
   - Crie a branch da funcionalidade a ser implementada: `git checkout -b feature/view-painel-adm`
   - Envie a sua branch para o repositório remoto do github: `git push -u origin feature/view-painel-adm`
   - Nas próximas vezes que der um push para subir modificações para o repositório remoto, use apenas `git push`
+
+
 ---
 
 ### Rotina
