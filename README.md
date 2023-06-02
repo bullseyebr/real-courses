@@ -1,6 +1,6 @@
 # Real Cursos
 
-Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/). 
+Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/).
 
 Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Administrativo.
 
@@ -48,6 +48,8 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 - Crie a branch que você utilizará para desenvolver a sua funcionalidade
   - Sempre crie a branch usando `feature/` + nome da feature que irá desenvolver
   - Para criar uma branch nova você usar `git checkout` com a opção `-b`, ficando `git checkout -b nome-branch`
+  - Até aqui a branch foi criada apenas no seu computador, ou seja, no repositório local
+  - Precisamos enviar a branch que foi criada localmente para o servidor remoto, usando `git push -u origin nome-branch`
 - Exemplo de criação de branch de uma view do painel administrativo
   - Crie a branch da funcionalidade a ser implementada: `git checkout -b feature/view-painel-adm`
   - Envie a sua branch para o repositório remoto do github: `git push -u origin feature/view-painel-adm`
@@ -58,6 +60,7 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 
 ### Rotina
 
+- Use sempre `git pull` para trazer as modificações do servidor remoto para o seu local
 - Cheque em qual branch está e quais alterações foram adicionadas: `git status`
   - Certifique-se de estar na branch correta
   - Se não estiver na sua branch, vole para ela: `git checkout suabranch`
@@ -98,6 +101,8 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 * Adicionar todas as alterações feitas: `git add .`
 * Adicionar alteração específica de um arquivo ou pasta: `git add caminho-pasta-arquivo-especifico`
 * Para mesclar sua branch com outra-branch (estando dentro da sua branch): `git merge outra-branch`
+* Remover branch no repositório local: `git branch -d branch-a-remover`
+* Remover branch no repositório remoto: `git push -d origin branch-a-remover`
 ---
 
 ### Detalhamento completo com mais comandos do git
