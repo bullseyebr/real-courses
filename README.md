@@ -42,6 +42,7 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 #### Criar a branch para a funcionalidade que você vai desenvolver:
 
 - Utilize o comando `git pull` para atualizar/baixar o que tiver de modificação do repositório remoto no GitHub para o seu local
+  - **Principalmente** quando você vai começar a desenvolver ou antes de dar commit e push
 - Você provavelmente estará na branch `main`, verifique utilizando o comando `git status`
 - Troque para a branch develop pelo comando: `git checkout develop`
   - Obs: sempre criar uma branch nova a partir da branch `develop`
