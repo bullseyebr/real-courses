@@ -39,4 +39,18 @@
     background-color: #000;
     margin-bottom: 5px;
   }
+
+  .home-bg {
+    background-image: url(img/bg-home.png);
+    background-size: cover;
+  }
+
+  .text-white {
+   color: white;
+  }
+
+  .pad-section {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
   
