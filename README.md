@@ -1,6 +1,6 @@
 # Real Cursos
 
-Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/). 
+Projeto desenvolvido para o Trainee/Estágio da [Real Grana](https://realgrana.com.br/).
 
 Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Administrativo.
 
@@ -30,21 +30,38 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 
 ### Primeira utilização
 
+#### Baixar o projeto (dando clone):
+
+- Abra o GitBash ou CMD/Terminal
+  - A forma mais fácil é abrir o terminal ou VsCode (terminal integrado) na pasta que vai ficar o projeto
 - Entre na pasta onde irá guardar o projeto: `cd /caminho/para/a/pasta`
 - Clone o repositório: `git clone https://github.com/bullseyebr/real-courses`
 - Entre na pasta criada pelo comando clone: `cd real-courses`
-- Entre na branch develop pelo comando: `git checkout develop`
+
+
+#### Criar a branch para a funcionalidade que você vai desenvolver:
+
+- Utilize o comando `git pull` para atualizar/baixar o que tiver de modificação do repositório remoto no GitHub para o seu local
+  - **Principalmente** quando você vai começar a desenvolver ou antes de dar commit e push
+- Você provavelmente estará na branch `main`, verifique utilizando o comando `git status`
+- Troque para a branch develop pelo comando: `git checkout develop`
   - Obs: sempre criar uma branch nova a partir da branch `develop`
-- Crie a branch usando `feature/` + nome da feature que irá desenvolver
-- Para criar uma branch nova você deve adicion o `-b`, ficando `git checkout -b nome-branch`
+- Crie a branch que você utilizará para desenvolver a sua funcionalidade
+  - Sempre crie a branch usando `feature/` + nome da feature que irá desenvolver
+  - Para criar uma branch nova você usar `git checkout` com a opção `-b`, ficando `git checkout -b nome-branch`
+  - Até aqui a branch foi criada apenas no seu computador, ou seja, no repositório local
+  - Precisamos enviar a branch que foi criada localmente para o servidor remoto, usando `git push -u origin nome-branch`
 - Exemplo de criação de branch de uma view do painel administrativo
   - Crie a branch da funcionalidade a ser implementada: `git checkout -b feature/view-painel-adm`
   - Envie a sua branch para o repositório remoto do github: `git push -u origin feature/view-painel-adm`
   - Nas próximas vezes que der um push para subir modificações para o repositório remoto, use apenas `git push`
+
+
 ---
 
 ### Rotina
 
+- Use sempre `git pull` para trazer as modificações do servidor remoto para o seu local
 - Cheque em qual branch está e quais alterações foram adicionadas: `git status`
   - Certifique-se de estar na branch correta
   - Se não estiver na sua branch, vole para ela: `git checkout suabranch`
@@ -85,6 +102,8 @@ Consiste em uma Landing Page (LP) e uma Plataforma de Cursos com ambiente Admini
 * Adicionar todas as alterações feitas: `git add .`
 * Adicionar alteração específica de um arquivo ou pasta: `git add caminho-pasta-arquivo-especifico`
 * Para mesclar sua branch com outra-branch (estando dentro da sua branch): `git merge outra-branch`
+* Remover branch no repositório local: `git branch -d branch-a-remover`
+* Remover branch no repositório remoto: `git push -d origin branch-a-remover`
 ---
 
 ### Detalhamento completo com mais comandos do git
