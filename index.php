@@ -13,27 +13,53 @@
 
 <body>
   <header>
-    <nav class="navbar">
-    <div class="hamburger-menu">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-      <div class="navbar-avatar" onclick="toggleDropdown()">
-        <img src="img/avatar.png" alt="" width="10%" height="10%">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      <!-- <div class="navbar-avatar d-flex justify-content-between " onclick="toggleDropdown()">
+        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="img/avatar.png" alt="" width="25px" height="25px">
         <ul class="navbar-menu" id="dropdown-menu">
-        <li class="navbar-item">
-          <div class="dropdown navbar-item">
-        <li><a class="dropdown-item" href="#">Meu perfil</a></li>
-        <li><a class="dropdown-item" href="#">Ajuda</a></li>
-        <li><a class="dropdown-item" href="#">Logout</a></li>
-        </div>
-        </li>
-      </ul>
-    </nav>
+          <li class="navbar-item"> -->
+            <!-- <div class="dropdown navbar-item"> -->
+          <!-- <li><a class="dropdown-item" href="#">Meu perfil</a></li>
+          <li><a class="dropdown-item" href="#">Ajuda</a></li>
+          <li><a class="dropdown-item" href="#">Logout</a></li>
+          </li>
+        </ul>
       </div>
+    </nav> -->
 
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <div class="d-flex"  onclick="toggleDropdown()">
+            <img src="img/avatar.png" alt="" width="35px" height="35px">
+            <ul class="navbar-menu" id="dropdown-menu">
+              <li class="navbar-item">
+              <li><a class="dropdown-item" href="#">Meu perfil</a></li>
+              <li><a class="dropdown-item" href="#">Ajuda</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
