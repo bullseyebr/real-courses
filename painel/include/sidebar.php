@@ -4,7 +4,7 @@
   <!-- Sidebar - Brand -->
   <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
     <div class="sidebar-brand-icon my-5 my-sm-5 my-md-0">
-      <img class="mt-5 mt-sm-5 mt-md-0" src="/assets/img/realgrana/logo-final-colorida.png" width="110px">
+      <img class="mt-5 mt-sm-5 mt-md-0" src="assets/img/realgrana/logo-final-colorida.png" width="110px">
     </div>
     <!-- <div class="sidebar-brand-text mx-3">Nome</div> -->
   </a>
