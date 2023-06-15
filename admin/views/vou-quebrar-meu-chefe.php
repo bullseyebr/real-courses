@@ -1,4 +1,5 @@
 <section class="home-bg pad-section">
+  <h3 class="text-gray-white"></h3>
   <h1 class="text-white">Home Administrativa</h1>
   <div class="container">
     <div class="row">
