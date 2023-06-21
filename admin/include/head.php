@@ -1,7 +1,7 @@
 <?php
 
 $siteSlogan = "Cursos feitos para você, sua família e seu cachorro, gato, piriquito e papagaio";
-$pageName = $_GET['page']
+$pageName = $_GET['page'];
 
 ?>
 

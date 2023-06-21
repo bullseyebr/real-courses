@@ -1,6 +1,6 @@
 <section class="home-bg pad-section">
   <h3 class="text-gray-white"></h3>
-  <h1 class="text-white">Home Administrativa</h1>
+  <h1 class="text-white">Home Administrativa - <?= $_GET['page'] ?></h1>
   <div class="container">
     <div class="row">
       <div class="col-sm-6 mb-3 mb-sm-0">
